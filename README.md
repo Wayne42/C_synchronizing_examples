@@ -1,12 +1,12 @@
 # C_synchronizing_examples
 
-Designed to run on Unix Systems (Linux). 
+Designed to run on Unix Systems (Linux).
 
 Not tested on MacOS!
 
 ## Fork with Semaphores and mmap
 
-Simple Parent-Child Orchestration Example using Mainthread and Childthread. 
+Simple Parent-Child Orchestration Example using Mainthread and Childthread.
 
 To run this program, run:
 
@@ -18,13 +18,15 @@ and then:
 
 ## N Producer and M Consumer Problem
 
-Multithreading (N+M) with N Producer and M Consumer
+See: https://www.cs.fsu.edu/~baker/realtime/restricted/notes/prodcons.html
+
+Multithreading (N+M) with N Producer and M Consumer using Semaphores, Mutex and Circular Buffer
 
 To run this program, run:
 
 `gcc producer_consumer.c -o prodcon -lpthread`
 
-and then: 
+and then:
 
 `./prodcon`
 
