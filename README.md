@@ -1,7 +1,8 @@
 # C_synchronizing_examples
 
 Designed to run on Unix Systems (Linux). 
-Not testes on MacOS. 
+
+Not tested on MacOS!
 
 ## Fork with Semaphores and mmap
 
