@@ -20,6 +20,16 @@ and then:
 
 See: https://www.cs.fsu.edu/~baker/realtime/restricted/notes/prodcons.html
 
+> ### Producer-Consumer Problem
+>
+> * One or more threads generate data and put it into a buffer
+> * One or more threads take data items from the buffer, one at time
+> * Only one producer or consumer may access the buffer at any one time
+> * Variants, of increasing difficulty:
+>   * Single producer & single consumer
+>   * Multiple producers & single consumer
+>   * Multiple producers & multiple consumers
+
 Multithreading (N+M) with N Producer and M Consumer using Semaphores, Mutex and Circular Buffer
 
 To run this program, run:
