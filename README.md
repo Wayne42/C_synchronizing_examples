@@ -6,7 +6,7 @@ Not tested on MacOS!
 
 ## Fork with Semaphores and mmap
 
-Simple Parent-Child Orchestration Example using Mainthread and Childthread.
+Simple Parent-Child Orchestration Example using Fork to create a Childprocess.
 
 To run this program, run:
 
