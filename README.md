@@ -29,7 +29,8 @@ and then:
 To test this program, run:
 
 ```
-gcc producer_consumer.c -o prodcon -lpthread && ./prodcon > tests/test.txt && node test.js
+gcc producer_consumer.c -o prodcon -lpthread && ./prodcon > tests/test.txt && node tests/producer_consumer.js tests/test.txt
+
 ```
 
 You will need Node.js for the test.
