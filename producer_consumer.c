@@ -20,7 +20,7 @@ N Producer and M Consumer Problem using Mutex and Semaphores in C
 
 /* Size of Buffer */
 #define BUFFER_SIZE 7
-/* Ringbuffer */
+/* Circular Buffer */
 char buffer[BUFFER_SIZE];
 
 typedef struct
