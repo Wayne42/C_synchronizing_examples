@@ -8,10 +8,12 @@ function isAnagram(a, b) {
     return z === y;
 }
 
+const args = process.argv.slice(2);
+
 (async function processLineByLine() {
     try {
         const rl = readline.createInterface({
-            input: fs.createReadStream('test.txt'),
+            input: fs.createReadStream(args[0] ? args[0] : './test.txt'),
             crlfDelay: Infinity
         });
 
